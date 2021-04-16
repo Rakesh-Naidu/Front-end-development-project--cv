@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.top{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+h1{
+    font-size: 5em  ;
+    /* same as 5em - 1em=100% */
+    /* best to use rem instead of em because if we use em the size will add to to the size from parent element */
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-weight: normal;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+.comp{
+    text-decoration: underline;
+}
+.top-cld{
+    position: absolute;
+    top:75px;
+    left: 1000px;
+}
+.bottom-cld{
+    position: absolute;
+    top:375px;
+    left:300px;
+}
+.image-skl1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.image-skl2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.aboutme{
+    width: 30%;
+    line-height: 2;
+    margin: 50px auto 50px auto;
+}
+.profile{
+    margin-top: 50px;
+}
+hr{
+    width: 5%;
+    border-color: gray;
+    border-width: 7px;
+    border-style: dotted none none;
+    margin: 100px auto 100px auto;
+}
+.btn {
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    height: 10px;
+    line-height: 10px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    width: 161px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    background-color: #3D94F6;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin:50px auto 70px auto;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 30px;
+}
+.footer-link{
+    font-size: 20px;
+    color: #11999E;
+    padding: 20px;
+    line-height: 3;
+}
